@@ -1,0 +1,27 @@
+<h1><%= @flat.name %></h1>
+
+<img src="<%= @flat.picture %>" alt="<%= @flat.name %>" class="img-fluid">
+
+<div class="d-flex">
+  <div class="flat-info">
+    <h3>Address: 🌍</h3>
+
+    <p><%= @flat.address %></p>
+
+    <h3>Price: 💸</h3>
+
+    <p><%= @flat.price_per_night %>€</p>
+
+    <h3>Number of guests: 👽</h3>
+
+    <p><%= @flat.number_of_guests %></p>
+  </div>
+  <div class="forms-booking">
+    <p>Book this place!</p>
+    <form action="" class="">
+      <input type="text" name="From" class="form-control">
+      <input type="text" name="To" class="form-control">
+      <input type="submit" class="btn btn-primary">
+    </form>
+  </div>
+</div>
